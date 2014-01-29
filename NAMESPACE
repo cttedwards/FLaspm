@@ -1,0 +1,38 @@
+useDynLib("FLaspm")
+import("FLCore")
+export(
+  "age_to_length",
+  "length_to_weight",
+  "age_to_weight",
+  "aspm.Edwards",
+  "aspm.Edwards.C",
+  "aspm.Edwards.C.AD",
+  "aspm.index.Edwards",
+  "aspm.index.Edwards.C",
+  "aspm.Francis",
+  "aspm.Francis.C",
+  "aspm.Francis.CAD",
+  "aspm.index.Francis",
+  "aspm.index.Francis.C",
+  "aspm.pdyn.Francis.C",
+  "aspm.pdyn.Francis",
+  "aspm.pdyn.Edwards.C",
+  "aspm.pdyn.Edwards",
+  "rJohnson",
+  "JohnsonCum",
+  "JohnsonPDF",
+  "Johnsonll")
+exportClasses(
+	"FLaspm")
+exportMethods(
+  "FLaspm",
+  "calc.pop.dyn",
+  "exp.biomass",
+  "exp.biomass.mid",
+  "mat.biomass",
+  "calc.qhat",
+  "calc.sigma2",
+  "calc.logl",
+  "calc.initial",
+  "indexhat")
+	
